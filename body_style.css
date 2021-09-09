@@ -1,0 +1,217 @@
+:root {
+    --ff-primary: poppins, sans-serif;
+    --ff-sec: acumin-pro, sans-serif;
+    --clr-primary: rgba(59, 66, 72, 1);
+    --clr-ind-Orange: rgba(255, 119, 34, 1);
+    --clr-vibrant-blue: rgba(0, 34, 238, 1);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    /* height: 0;
+    width: 0; */
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-y: overlay;
+}
+
+body {
+    font-family: var(--ff-primary);
+    -webkit-font-smoothing: antialiased;
+    background-color: rgba(59, 66, 72, 0.1);
+}
+
+div {
+    display: block;
+}
+
+.appWrapper {
+    outline: none;
+    height: 100vh;
+    width: 1280px;
+    margin: 0 auto;
+    padding: 0 14px;
+}
+
+@media screen and (min-width: 1280px) {
+    .appWrapper {
+        padding: 0 80px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .appWrapper {
+        padding: 0 40px;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .appWrapper {
+        padding: 0 320px;
+    }
+}
+
+.hr_design {
+    border: none;
+    height: 0.5px;
+    background-color: rgba(59, 66, 72, 0.2);
+    width: 100%;
+    display: block;
+}
+
+.container {
+    display: grid;
+    grid-auto-rows: minmax(150px, auto);
+    row-gap: 12px;
+    margin: 20px auto;
+}
+
+.parts {
+    border-radius: 8px;
+    border: 0.5px solid rgba(59, 66, 72, 0.3);
+    background-color: rgba(255, 255, 255, 1);
+
+}
+
+.part_content {
+    margin: 20px 30px;
+}
+
+.topic_txt {
+    font-weight: 400;
+    font-size: 2rem;
+    padding-bottom: 10px;
+}
+
+.sub_txt {
+    font-family: var(--ff-sec);
+    font-weight: 400;
+    letter-spacing: 0.3px;
+    color:rgba(59, 66, 72, 0.8);
+    font-size: 0.9rem;
+    margin-top: 15px;
+}
+
+.sub_txt_remark {
+    font-family: var(--ff-sec);
+    font-weight: 500;
+    letter-spacing: 0.3px;
+    color:rgba(59, 66, 72, 0.8);
+    font-size: 0.9rem;
+    margin-top: 20px;
+}
+
+.text_label {
+    font-weight: 350;
+    color: rgba(59, 66, 72, 1);
+}
+
+.textInput {
+    margin-top: 40px;
+    height: 30px;
+    font-size: 0.8rem;
+    border: none;
+    letter-spacing: 0.3px;
+    border-bottom: 1px solid rgba(59, 66, 72, 0.3);
+    outline: none;
+    width: 300px;
+    border-radius: none;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.mediaInput {
+    margin-top: 40px;
+    font-size: 0.8rem;
+    color: transparent;
+}
+
+::-webkit-file-upload-button {
+    font-family: var(--ff-primary);
+    color: rgba(0, 34, 238, 0.8);
+    font-weight: 500;
+    background-color: rgba(255, 255, 255, 1);
+    outline: none;
+    border: 1px solid rgba(59, 66, 72, 0.3);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.OpSection {
+    display: flex;
+    justify-content: space-between;
+}
+
+.OpButtons {
+    font-size: 1rem;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(59, 66, 72, 0.8);
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    padding:10px 15px;
+    cursor: pointer;
+}
+
+.OpButtonSubmit:hover {
+    background-color: rgba(59, 66, 72, 1);
+}
+
+.OpButtonReset {
+    background-color: transparent;
+    color:rgba(59, 66, 72, 0.8);
+}
+
+.OpButtonReset:hover {
+    color:rgba(59, 66, 72, 1);
+}
+
+.footer_txt {
+    font-family: var(--ff-sec);
+    font-size: 0.8rem;
+    font-weight: 100;
+    font-style: normal;
+    color:rgba(59, 66, 72, 0.8);
+    margin-top: 20px;
+    text-align: center;
+    letter-spacing: 0.2px;
+}
+
+.logo {
+    margin: 20px auto;
+    text-align: center;
+    font-size: 1.5rem;
+    align-items: center;
+}
+
+.logo_Sourin {
+    font-weight: 500;
+    opacity: 0.3;
+}
+
+.logo_Forms {
+    font-weight: 400;
+    opacity: 0.3;
+    font-size: 1.4rem;
+}
+
+    
