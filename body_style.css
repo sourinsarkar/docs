@@ -9,9 +9,9 @@
 * {
     margin: 0;
     padding: 0;
-    /* height: 0;
-    width: 0; */
     box-sizing: border-box;
+    min-height: 0;
+    min-width: 0;
 }
 
 *, *::before, *::after {
@@ -37,8 +37,9 @@ div {
 
 .appWrapper {
     outline: none;
-    height: 100vh;
-    width: 1280px;
+    width: 100vw;
+    min-height: 100vh;
+    max-width: 1440px;
     margin: 0 auto;
     padding: 0 14px;
 }
@@ -57,7 +58,7 @@ div {
 
 @media screen and (min-width: 600px) {
     .appWrapper {
-        padding: 0 320px;
+        padding: 0 60px;
     }
 }
 
@@ -212,6 +213,13 @@ input[type=number] {
     font-weight: 400;
     opacity: 0.3;
     font-size: 1.4rem;
-}
+}    
 
-    
+/* -----------------------------------------ALL MEDIA QUERIES-------------------------------------------- */
+/* SMARTPHONES -- POTRAIT AND LANDSCAPE */
+@media only screen and (max-device-width: 420px) {
+    .textInput {
+        width: 100%;
+        
+    }
+}
