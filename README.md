@@ -1,6 +1,6 @@
 # About
-It is a clone of a form page similar to the ones of Google Forms and Microsoft Forms.
-View: docs.sourin.in/forms
+It is a clone of a form page similar to the ones of Google Forms and Microsoft Forms.'\n'
+View: https://docs.sourin.in/forms
 
 🔨Tools: HTML, CSS
 
