@@ -8,4 +8,4 @@ View: https://docs.sourin.in/forms
 - It takes some text data.
 - Also takes a file input.
 
-😔 Sorry this form doesn't save data. Will upgrade in it sometime in near future.
+😔 Sorry this form doesn't save data. Will upgrade it sometime in near future.
